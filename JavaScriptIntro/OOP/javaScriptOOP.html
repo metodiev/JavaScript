@@ -1,0 +1,53 @@
+
+
+<!DOCTYPE html>
+<html>
+<title>Web Page Design</title>
+<head>
+<script>
+    var myVar = "global"; 
+ class OOP{
+  
+constructor () {
+    
+}
+
+
+
+ Sum( a,  b) {
+        return a +b;
+    }
+
+    nameFunc(){
+        return myVar;
+    }
+
+}
+
+let oopObjectClass  = new OOP();
+alert(oopObjectClass.nameFunc());
+
+
+class GSM{
+
+    constructor(button, display){
+       this.model = "Nokia"
+        this.button = button;
+        this.display = display;
+        alert("GSM");
+    }
+
+printGSMModel(){
+    return this.model;
+}
+
+}
+
+let tt = new  GSM("test", "15151");
+alert(tt.printGSMModel());
+
+</script>
+</head>
+<body>
+</body>
+</html>
